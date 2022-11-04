@@ -22,19 +22,19 @@ function createCard(date, day, games) {
 }
 
 document.querySelector("#cards").innerHTML =
-  createCard("20/11", "DOM", createGame("Qatar", "13:00", "Ecuador")) +
+  createCard("20/11", "DOM", createGame("qatar", "13:00", "ecuador")) +
   createCard(
     "21/11",
     "SEG",
-    createGame("England", "10:00", "Iran") +
-      createGame("United States", "16:00", "Wales") +
-      createGame("Senegal", "13:00", "Netherlands")
+    createGame("england", "10:00", "iran") +
+      createGame("united states", "16:00", "wales") +
+      createGame("senegal", "13:00", "netherlands")
   ) +
   createCard(
     "22/11",
     "TER",
-    createGame("Argentina", "07:00", "Saudi Arabia") +
-      createGame("Mexico", "13:00", "Poland") +
-      createGame("Denmark", "10:00", "Tunisia") +
-      createGame("France", "16:00", "Australia")
+    createGame("argentina", "07:00", "saudi arabia") +
+      createGame("mexico", "13:00", "poland") +
+      createGame("denmark", "10:00", "tunisia") +
+      createGame("france", "16:00", "australia")
   )
